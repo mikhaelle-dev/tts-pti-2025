@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTS PTI</title>
+</head>
+<body>
+    <h1 align="center">TTS ASISTEN DOSEN PTI B</h1>
+    <h2 align="center">Fakultas Teknologi Informasi</h2>
+    <h3 align="center">Program Studi Informatika</h3>
+    
+    <form>
+        <table>
+            <tr>
+                <td><b>Dosen Pengampu:</b></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><b>Nama:</b></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><b>NIM:</b></td>
+                <td><input type="text" required></td>
+            </tr>
+        </table>
+    </form>
+
+    <br><hr>
+    <h2>Form Login dan Register</h2>
+    <br>
+
+
+    <form action="page2.html">
+        <table align="center" border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th colspan="2">Form Login</th>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="username" placeholder="Masukkan Username" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" placeholder="Masukkan Password" required></td>
+            </tr>
+            <tr>
+                <td>Ingat Saya</td>
+                <td><input type="checkbox" name="ingat_saya"> Ya</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+
+    <form action="page3.html">
+        <table align="center" border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th colspan="2">Form Register</th>
+            </tr>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td><input type="text" name="nama_lengkap" placeholder="Nama Lengkap" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" placeholder="contoh@email.com" required></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="username" placeholder="Buat Username" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" placeholder="Buat Password" required></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" name="gender" value="laki-laki" required> Laki-laki
+                    <input type="radio" name="gender" value="perempuan" required> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Asal Fakultas</td>
+                <td>
+                    <select name="pilih" id="pilih" required>
+                        <option value="">-- Pilih Fakultas --</option>
+                        <option value="fti">Fakultas Teknologi Informasi</option>
+                        <option value="fbs">Fakultas Bahasa dan Seni</option>
+                        <option value="feb">Fakultas Ekonomi dan Bisnis</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br><br><hr><br><br>
+
+    <p align="center">© 2025 Fakultas Teknologi Informasi - UKSW</p>
+</body>
+</html>
